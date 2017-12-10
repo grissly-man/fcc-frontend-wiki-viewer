@@ -1,0 +1,17 @@
+.transition-results-enter, .transition-results-appear {
+  opacity: 0.01;
+}
+
+.transition-results-enter.transition-results-enter-active, .transition-results-enter.transition-results-appear-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.transition-results-leave {
+  opacity: 1;
+}
+
+.transition-results-leave.transition-results-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}

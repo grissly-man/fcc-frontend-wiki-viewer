@@ -1,0 +1,47 @@
+{
+  "name": "fcc-frontend-wiki-viewer",
+  "version": "1.0.0",
+  "description": "An interface to search wikipedia, and render a list of relevant articles to the user",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grissly-man/fcc-frontend-wiki-viewer.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "react": "^16.2.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "^16.2.0",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "sanitize-html": "^1.16.1"
+  },
+  "keywords": [
+    "freecodecamp",
+    "frontend",
+    "reactjs",
+    "wikipedia",
+    "viewer",
+    "api",
+    "integration"
+  ],
+  "author": "Logan Griswold (grissly-man)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grissly-man/fcc-frontend-wiki-viewer/issues"
+  },
+  "homepage": "https://github.com/grissly-man/fcc-frontend-wiki-viewer#readme"
+}
